@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "Static content generator for ecom store front.",
   "main": "index.js",
+  "private": true,
   "dependencies": {
-    "netlify-cms": "^2.10.47"
+    "netlify-cms": "^2.10.47",
+    "nuxt": "^2.12.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "glob": "^7.1.6"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "serve": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "repository": {
     "type": "git",
