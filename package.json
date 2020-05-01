@@ -5,11 +5,18 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
+    "@nuxtjs/markdownit": "^1.2.9",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "core-js": "^3.6.5",
     "netlify-cms": "^2.10.47",
-    "nuxt": "^2.12.2"
+    "nuxt": "^2.12.2",
+    "vue": "^2.6.11",
+    "vuex": "^3.3.0"
   },
   "devDependencies": {
-    "glob": "^7.1.6"
+    "glob": "^7.1.6",
+    "nodemon": "^2.0.3"
   },
   "scripts": {
     "dev": "nuxt",
@@ -25,6 +32,6 @@
   "keywords": [
     "photography"
   ],
-  "author": "",
+  "author": "Justin Bull",
   "license": "ISC"
 }

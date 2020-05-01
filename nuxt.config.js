@@ -2,7 +2,6 @@ import glob from 'glob'
 import path from 'path'
 
 const dynamicRoutes = getDynamicPaths({
-    '/blog': 'blog/*.json',
     '/page': 'page/*.json',
 });
 
